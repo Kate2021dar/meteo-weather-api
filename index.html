@@ -33,16 +33,22 @@
       <!---->
       <div class="container-weather">
         <div class="date-wind">
-          <h2 class="city"><em id="current-city">Kharkiv</em>, July 8</h2>
+          <h2 class="city">
+            <em id="current-city"></em>, <span id="month-day">July 8</span>
+          </h2>
           <h3 class="current-datetime">
-            <span id="current-date"></span>, light rain
+            <span id="current-date"></span>,
+            <span id="current-description"></span>
           </h3>
-          <h4 class="humidity-wind">Humidity: 33%, Wind: 4,73km/n</h4>
+          <h4 class="humidity-wind">
+            Humidity: <span id="humidity"></span>%, Wind:
+            <span id="wind"></span> km/h
+          </h4>
         </div>
 
         <div class="celsius-fahreneit">
           <div class="temperature">
-            <strong id="id-temperature">☀️31</strong>
+            <strong id="id-temperature">☀️</strong>
             <a href="" class="celsius" id="id-celsius">°C</a> |
             <a href="" class="fahrenheit" id="id-fahrenheit">°F</a>
           </div>
