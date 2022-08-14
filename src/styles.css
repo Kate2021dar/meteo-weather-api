@@ -95,23 +95,27 @@ form {
 }
 
 .temperature {
-  display: block;
   font-weight: 600;
   font-size: 25px;
   text-align: center;
-  color: #1071c0;
-  align-items: center;
+  color: #875cdd;
 }
 
+.id-temperature {
+  font-size: 60px;
+}
 .celsius,
-.fahrenheit {
+.fahrenheit,
+.icon-between {
   text-decoration: none;
+  color: #875cdd;
+  position: relative;
+  top: -33px;
 }
 
-.celsius:hover {
+.celsius-fahreneit .active {
+  color: #875cdd;
+  cursor: default;
   text-decoration: underline;
 }
 
-.fahrenheit:hover {
-  text-decoration: underline;
-}
